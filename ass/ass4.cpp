@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     char signal;
-    cout << "Enter the signal (e.g. R or r, Y or y, G or g" << endl;
+    cout << "Enter the signal (e.g. R or r, Y or y, G or g)" << endl;
     cin >> signal;
     switch (signal)
     {
@@ -21,6 +21,8 @@ int main()
     case 'g':
         cout << "GO!";
         break;
+        default:
+        cout << "Invalid signal!";
     }
     return 0;
 }

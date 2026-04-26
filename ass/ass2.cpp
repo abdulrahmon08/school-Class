@@ -3,13 +3,13 @@ using namespace std;
 int main(){
  for(int i=1; i<=50; i++){
     if(i%3==0 && i%5==0){
-        cout << "FizzBuzz" << endl;
+        cout << "FizzBuzz, ";
     }else if(i%5==0){
-        cout << "Buzz" << endl;
+        cout << "Buzz, ";
     }else if(i%3==0){
-        cout << "Fizz" << endl;
+        cout << "Fizz, ";
     }else{
-    	cout << i<< endl;
+    	cout << i<< ", ";
 	}
  }
  return 0;
