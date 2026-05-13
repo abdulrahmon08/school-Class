@@ -21,7 +21,7 @@ int main()
     case 'g':
         cout << "GO!";
         break;
-        default:
+    default:
         cout << "Invalid signal!";
     }
     return 0;
