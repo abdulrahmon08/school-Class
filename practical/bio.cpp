@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-    string name="Abdulrahmon Sheriff Adekunle";
-    string matric_no="SW20250104467";
+    string name="Taiwo Mujeeb Adewale";
+    string matric_no="SW20250104468";
     string gender="Male";
-    string date_of_birth="05th May, 2000";
+    string date_of_birth="12th January, 2000";
     string level="HND I";
     string semester="First Semester";
     string course_of_study="Software and Web Development";

@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
    string name;
+   cout<< "Enter your name: "<<endl;
    cin >> name;
    cout << "How are you doing, " << name << "!" << endl; 
 }
