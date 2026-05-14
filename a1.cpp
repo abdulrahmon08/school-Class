@@ -49,20 +49,18 @@ int main()
     cout << "Area of circle of radius 4 is " << area_of_circle(4) << endl;
 
     char signal;
-    cout << "Input your signal from: R and r for Stop, Y and y for Caution and G and g for Go" << endl;
+    cout << "Input your signal from R,Y and G" << endl;
     cin >> signal;
+    char input= tolower(signal);
     switch (signal)
     {
     case 'r':
-    case 'R':
         cout << "Stop" <<endl;
         break;
     case 'y':
-    case 'Y':
         cout << "Caution"<<endl;
         break;
     case 'g':
-    case 'G':
         cout << "Go!"<<endl;
         break;
     default:
