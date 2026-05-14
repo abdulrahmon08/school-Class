@@ -52,7 +52,7 @@ int main()
     cout << "Input your signal from R,Y and G" << endl;
     cin >> signal;
     char input= tolower(signal);
-    switch (signal)
+    switch (input)
     {
     case 'r':
         cout << "Stop" <<endl;
