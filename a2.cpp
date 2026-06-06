@@ -37,7 +37,7 @@ double numbers[4][3]= {{1.8, 2.7, 7.1}, {4.4, 8.2, 11.7}, {10.15, 15.95,12.25}, 
 
 
 //Comparing valule of m and n
-int m=3 , n=6;
+int m=9 , n=6;
 if(m>n){
 	cout<< "M is bigger than N"<< endl;
 }else{
