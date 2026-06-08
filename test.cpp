@@ -21,7 +21,7 @@ int main(){
     cout<< "sum ="<< num1+num2;
     cout<< "product ="<< num1*num2;
     cout<< "difference ="<< num1 - num2;
-   
+   cout<< "quotient ="<< num1/num2;
     return 0;
 }
 

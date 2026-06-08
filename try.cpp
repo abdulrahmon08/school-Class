@@ -53,6 +53,7 @@ int main(){
     pet.run();
     pet.play();
     pet.bark();
+    return 0;  
 }
 
 
