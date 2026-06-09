@@ -14,7 +14,6 @@ int main(){
        cout<<"area ="<< area<< endl;
        cout<< "volume ="<< volume<< endl;
 
-       
     int num1, num2;
     cout<< "enter two number";
     cin>> num1>>num2;
